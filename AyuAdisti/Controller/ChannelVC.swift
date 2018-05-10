@@ -13,11 +13,14 @@ class ChannelVC: UIViewController {
     //Outlets
     
     @IBOutlet weak var loginBtn: UIButton!
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue){
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //ini itu jarak antara chatVC dengan button nya
+        //ini jarak antara chatVC dengan button nya
         self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 60
 
     }

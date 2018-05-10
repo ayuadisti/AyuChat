@@ -12,9 +12,14 @@
 		6A9F961F20A41F78002FA2EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9F961D20A41F78002FA2EE /* Main.storyboard */; };
 		6A9F962120A41F78002FA2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9F962020A41F78002FA2EE /* Assets.xcassets */; };
 		6A9F962420A41F78002FA2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9F962220A41F78002FA2EE /* LaunchScreen.storyboard */; };
+		6AF2930C20A426E2006D0E91 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF2930B20A426E2006D0E91 /* SWRevealViewController.m */; };
+		DB7935ECF100078EA31431C8 /* Pods_AyuAdisti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6537FE114665193A70E18DED /* Pods_AyuAdisti.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48D9614EF45F5F3BD9AD5B3A /* Pods-AyuAdisti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AyuAdisti.release.xcconfig"; path = "Pods/Target Support Files/Pods-AyuAdisti/Pods-AyuAdisti.release.xcconfig"; sourceTree = "<group>"; };
+		4B51D229036687E0DA7F5090 /* Pods-AyuAdisti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AyuAdisti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AyuAdisti/Pods-AyuAdisti.debug.xcconfig"; sourceTree = "<group>"; };
+		6537FE114665193A70E18DED /* Pods_AyuAdisti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AyuAdisti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9F961620A41F78002FA2EE /* AyuAdisti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AyuAdisti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9F961920A41F78002FA2EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A9F961B20A41F78002FA2EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		6A9F962020A41F78002FA2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A9F962320A41F78002FA2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A9F962520A41F78002FA2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF2930920A426E0006D0E91 /* AyuAdisti-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AyuAdisti-Bridging-Header.h"; sourceTree = "<group>"; };
+		6AF2930A20A426E2006D0E91 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		6AF2930B20A426E2006D0E91 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7935ECF100078EA31431C8 /* Pods_AyuAdisti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				6A9F961820A41F78002FA2EE /* AyuAdisti */,
 				6A9F961720A41F78002FA2EE /* Products */,
+				ED9D78F7804BB98BDF37C7A7 /* Pods */,
+				B0F754F3C0E5EC484303AD8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +65,7 @@
 		6A9F961820A41F78002FA2EE /* AyuAdisti */ = {
 			isa = PBXGroup;
 			children = (
+				6AF2930820A4265D006D0E91 /* Supporting Files */,
 				6A9F961920A41F78002FA2EE /* AppDelegate.swift */,
 				6A9F961B20A41F78002FA2EE /* ViewController.swift */,
 				6A9F961D20A41F78002FA2EE /* Main.storyboard */,
@@ -64,6 +76,33 @@
 			path = AyuAdisti;
 			sourceTree = "<group>";
 		};
+		6AF2930820A4265D006D0E91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AF2930A20A426E2006D0E91 /* SWRevealViewController.h */,
+				6AF2930B20A426E2006D0E91 /* SWRevealViewController.m */,
+				6AF2930920A426E0006D0E91 /* AyuAdisti-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0F754F3C0E5EC484303AD8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6537FE114665193A70E18DED /* Pods_AyuAdisti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED9D78F7804BB98BDF37C7A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B51D229036687E0DA7F5090 /* Pods-AyuAdisti.debug.xcconfig */,
+				48D9614EF45F5F3BD9AD5B3A /* Pods-AyuAdisti.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A9F962820A41F78002FA2EE /* Build configuration list for PBXNativeTarget "AyuAdisti" */;
 			buildPhases = (
+				393F756AB5C6B6DFDB6CE17F /* [CP] Check Pods Manifest.lock */,
 				6A9F961220A41F78002FA2EE /* Sources */,
 				6A9F961320A41F78002FA2EE /* Frameworks */,
 				6A9F961420A41F78002FA2EE /* Resources */,
+				7263778D4AAD77896A24B84B /* [CP] Embed Pods Frameworks */,
+				F66A067A77D09088A7E8FD31 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +138,7 @@
 				TargetAttributes = {
 					6A9F961520A41F78002FA2EE = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +174,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		393F756AB5C6B6DFDB6CE17F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AyuAdisti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7263778D4AAD77896A24B84B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AyuAdisti/Pods-AyuAdisti-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarscreamSocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AyuAdisti/Pods-AyuAdisti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F66A067A77D09088A7E8FD31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AyuAdisti/Pods-AyuAdisti-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A9F961220A41F78002FA2EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +241,7 @@
 			files = (
 				6A9F961C20A41F78002FA2EE /* ViewController.swift in Sources */,
 				6A9F961A20A41F78002FA2EE /* AppDelegate.swift in Sources */,
+				6AF2930C20A426E2006D0E91 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +376,18 @@
 		};
 		6A9F962920A41F78002FA2EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B51D229036687E0DA7F5090 /* Pods-AyuAdisti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9FW7ZKGKV;
 				INFOPLIST_FILE = AyuAdisti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letstry.AyuAdisti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AyuAdisti/Supporting Files/AyuAdisti-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +395,17 @@
 		};
 		6A9F962A20A41F78002FA2EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D9614EF45F5F3BD9AD5B3A /* Pods-AyuAdisti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9FW7ZKGKV;
 				INFOPLIST_FILE = AyuAdisti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letstry.AyuAdisti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AyuAdisti/Supporting Files/AyuAdisti-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
